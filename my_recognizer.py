@@ -22,4 +22,7 @@ def recognize(models: dict, test_set: SinglesData):
     guesses = []
     # TODO implement the recognizer
     # return probabilities, guesses
-    raise NotImplementedError
+    for word in test_set.get_all_sequences:
+        print(word)
+
+recognize(dict, SinglesData)
